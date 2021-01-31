@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout
+        android:id="@+id/button_change_birth_date"
+        style="@style/button_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/change_birth_date"
+            android:textSize="15sp"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/iv_change_birth_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_calendar"
+            android:textSize="15sp"
+            android:contentDescription="@string/calendar_description" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/button_change_height"
+        style="@style/button_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/change_height"
+            android:textSize="15sp"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/iv_change_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_height"
+            android:textSize="15sp"
+            android:contentDescription="@string/height_description" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/button_change_weight"
+        style="@style/button_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/change_weight"
+            android:textSize="15sp"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/iv_change_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_weight_scale"
+            android:textSize="15sp"
+            android:contentDescription="@string/calendar_description" />
+
+    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/button_change_birth_date"
+        style="@style/button_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/change_birth_date"
+            android:textSize="15sp"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/tv_change_birth_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text=""
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/button_change_height"
+        style="@style/button_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/change_height"
+            android:textSize="15sp"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/tv_change_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text=""
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/button_change_weight"
+        style="@style/button_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/change_weight"
+            android:textSize="15sp"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/tv_change_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text=""
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

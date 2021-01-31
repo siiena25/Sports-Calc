@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SportsCalc</string>
+    <string name="toolbar_diary_text">ДНЕВНИК АКТИВНОСТЕЙ</string>
+    <string name="toolbar_calc_text">КАЛЬКУЛЯТОР ЗАТРАЧЕННЫХ КАЛОРИЙ</string>
+    <string name="toolbar_settings_text">НАСТРОЙКИ</string>
+    <string name="fragment_settings_name">settings</string>
+    <string name="fragment_diary_name">diary</string>
+    <string name="fragment_calc_name">calc</string>
+    <string name="diary_no_note">В ДНЕВНИКЕ ПОКА НЕТ ЗАПИСЕЙ</string>
+    <string name="fragment_start_name">start</string>
+    <string name="fragment_start1_name">start1</string>
+    <string name="fragment_start2_name">start2</string>
+    <string name="fragment_start3_name">start3</string>
+    <string name="go_to_using">Приступить к использованию</string>
+    <string name="contentDescriptionLogo">logo</string>
+    <string name="text_start1">Мы учитываем индивидуальные параметры каждого человека для наиболее точного расчёта затраченных калорий</string>
+    <string name="text_start2">Большое разнообразие видов активностей</string>
+    <string name="text_start3">Вы можете не только рассчитывать затраченные калории, но и сохранять их в дневник</string>
+    <string name="please_enter_your_data">Пожалуйста, введите ваши данные:</string>
+    <string name="birth_date">ДАТА РОЖДЕНИЯ</string>
+    <string name="height">РОСТ</string>
+    <string name="weight">ВЕС</string>
+    <string name="button_continue">ПРОДОЛЖИТЬ</string>
+    <string name="fragment_options_name">options</string>
+
+    <string name="time_edit_text_hint">здесь будет время..</string>
+    <string name="date_edit_text_hint">здесь будет дата..</string>
+    <string name="btn_time_text">Время</string>
+    <string name="btn_date_text">Дата</string>
+    <string name="hint_height">Введите ваш рост в см</string>
+    <string name="et_weight">Введите ваш вес в кг</string>
+    <string name="change_birth_date">ИЗМЕНИТЬ ДАТУ РОЖДЕНИЯ</string>
+    <string name="calendar_description">calendar</string>
+    <string name="change_height">ИЗМЕНИТЬ РОСТ</string>
+    <string name="height_description">height</string>
+    <string name="change_weight">ИЗМЕНИТЬ ВЕС</string>
+</resources>
